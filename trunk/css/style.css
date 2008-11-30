@@ -1,0 +1,40 @@
+body {background: black url(http://desk08.customize.org/download/45/57/Connected-1920x1200.jpg); margin: 0px; padding: 0px; font-size:62.5%; color: #eee;
+}
+
+h1,h2,h3,h4,h5 {font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold; display: inline; color: #000; border: solid #333; border-width: 0 2px 2px 0; padding: 0 5px;}
+h1 {font-size: 5em; line-height: 1.2em; background: #fff; }
+h1 a {text-decoration: none; color: #000;}
+h2 {font-size: 2em; line-height: 1.2em; background: yellow;}
+h3 {border-width: 0px 0px 1px 0px; color: #333;}
+h5 {border: 1px 0 0 0; color: #000;}
+
+div#heading {width: 230px; margin-top: 10px;}
+div#web_desc {margin: 8px 0 5px 0;}
+div#heading h2 {line-height: 1.4em;}
+
+ul#nav {font-size: 3em; font-family: Georgia, serif; font-style: italic; margin: 0px; padding: 0px;}
+ul#nav li a {text-decoration: none; color: #333; display: block; width:99.8%;}
+ul#nav li {border: solid #333; border-width: 0 0 1px 0; line-height: 1.4em; padding: 0 0 0 5px;}
+ul#nav li:hover {background:#fff; padding: 5px;}
+
+div#content {position: absolute; left: 250px; top: 0px; font-size: 2em; font-weight: bold; font-style: italic; background: #111; width: 78%;}
+
+h3#cat_tit {position: absolute; right: 0px; top:0px;}
+
+div#about  {margin:20px; font-style: normal; font-weight: normal; font-size: 1.3em;}
+div#about  a {border-bottom: 1px solid; text-decoration: none; color: yellow;}
+div#about  a:hover {background: #fff; padding: 2px; color: #000;}
+div#about  a:visited {color: #eee;}
+div#about  h3 {display: block; color: #fff;}
+
+ul#fancy {padding: 0px; margin: 10px 0 0 0;}
+ul#fancy li {list-style-type: none; display: inline; margin: 10px; position: relative;}
+ul#fancy li a span {position: absolute; bottom: -18px; left: 0px; background: yellow; padding: 4px; line-height: .8em; border: 4px black;}
+ul#fancy li a:link {color: #000; font-weight: bold;}
+ul#fancy li a:visited {color: #000; font-weight: normal;}
+ul#fancy li a:hover {color: #fff; font-style: normal;}
+ul#fancy li a img, ul#fancy li a span {border: solid #333; border-width: 0 2px 2px 0;}
+ul#fancy li a img:hover, ul#fancy li a:hover span {border: solid #fff; border-width: 0 2px 2px 0;}
+
+
+#load {position: absolute; top: 0px; right: 50px; padding: 25.2% 10px ; background: #333; font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold;}
