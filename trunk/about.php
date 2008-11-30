@@ -8,7 +8,7 @@ if (isset($cat)) {
 	<h3 id="cat_tit">about</h3>
 	<div id="about">
 		<p>
-		<h3>Welcome</h3>
+		<h3>Welcome!</h3>
 			Hi there! My name is Jonathan Solichin. But you may call me Jon, or by my secret identity "<i>aerovolce</i>". I am a student designer currently attending AHS. Beside designing, I also enjoy taking pictures, which I post on 
 			<a href="http://flickr.com/photos/aerovolce/">flickr</a>. 
 			I also have a 
