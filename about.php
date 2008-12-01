@@ -33,12 +33,13 @@ if (isset($cat)) {
 			</div>
 		</div>
 			<ul id="nav">
-			<li><a href="about.php?cat=theabout">about</a></li>';
+			<li><a href="about.php?cat=cat">about</a></li>';
 			
 			function folderlist(){
 			 $startdir = 'gallery/';
 			 $ignoredDirectory[] = '.';
 			 $ignoredDirectory[] = '..';
+			 $ignoredDirectory[] = '.svn';
 			  if (is_dir($startdir)){
 				  if ($dh = opendir($startdir)){
 					  while (($folder = readdir($dh)) !== false){
@@ -69,7 +70,7 @@ echo '
 
 <div id="content"> ';}  ?>
 		<h3 id="cat_tit">about</h3>
-	<div id="about">
+	<div id="text">
 		<p>
 		<h3>Welcome!</h3>
 			Hi there! My name is Jonathan Solichin. But you may call me Jon, or by my secret identity "<i>aerovolce</i>". I am a student designer currently attending AHS. Beside designing, I also enjoy taking pictures, which I post on 
