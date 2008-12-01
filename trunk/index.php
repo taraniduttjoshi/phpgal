@@ -25,7 +25,7 @@
 <div id="all">
 	<div id="constant">
 		<div id="heading">
-			<h1><a href="about.php?cat=theabout"><?php echo "$web_title"; ?></a></h1>
+			<h1><a href="about.php?cat=cat"><?php echo "$web_title"; ?></a></h1>
 			<div id="web_desc">
 				<h2><?php echo $web_desc; ?></h2>
 			</div>
@@ -38,6 +38,7 @@
 			 $startdir = 'gallery/';
 			 $ignoredDirectory[] = '.';
 			 $ignoredDirectory[] = '..';
+			 $ignoredDirectory[] = '.svn';
 			  if (is_dir($startdir)){
 				  if ($dh = opendir($startdir)){
 					  while (($folder = readdir($dh)) !== false){

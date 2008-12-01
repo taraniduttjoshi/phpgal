@@ -1,4 +1,4 @@
-body {background: black url(http://desk08.customize.org/download/45/57/Connected-1920x1200.jpg); margin: 0px; padding: 0px; font-size:62.5%; color: #eee;
+body {background: black; margin: 0px; padding: 0px; font-size:62.5%; color: #eee;
 }
 
 h1,h2,h3,h4,h5 {font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold; display: inline; color: #000; border: solid #333; border-width: 0 2px 2px 0; padding: 0 5px;}
@@ -21,11 +21,11 @@ div#content {position: absolute; left: 250px; top: 0px; font-size: 2em; font-wei
 
 h3#cat_tit {position: absolute; right: 0px; top:0px;}
 
-div#about  {margin:20px; font-style: normal; font-weight: normal; font-size: 1.3em;}
-div#about  a {border-bottom: 1px solid; text-decoration: none; color: yellow;}
-div#about  a:hover {background: #fff; padding: 2px; color: #000;}
-div#about  a:visited {color: #eee;}
-div#about  h3 {display: block; color: #fff;}
+div#text  {margin:20px; font-style: normal; font-weight: normal; font-size: 1.3em;}
+div#text  a {border-bottom: 1px solid; text-decoration: none; color: yellow;}
+div#text  a:hover {background: #fff; padding: 2px; color: #000;}
+div#text  a:visited {color: #eee;}
+div#text  h3 {display: block; color: #fff;}
 
 ul#fancy {padding: 0px; margin: 10px 0 0 0;}
 ul#fancy li {list-style-type: none; display: inline; margin: 10px; position: relative;}
