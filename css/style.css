@@ -1,5 +1,6 @@
 body {background: black; margin: 0px; padding: 0px; font-size:62.5%; color: #eee;
 }
+div.clear {float: clear;}
 
 h1,h2,h3,h4,h5 {font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold; display: inline; color: #000; border: solid #333; border-width: 0 2px 2px 0; padding: 0 5px;}
 h1 {font-size: 5em; line-height: 1.2em; background: #fff; }
@@ -36,5 +37,9 @@ ul#fancy li a:hover {color: #fff; font-style: normal;}
 ul#fancy li a img, ul#fancy li a span {border: solid #333; border-width: 0 2px 2px 0;}
 ul#fancy li a img:hover, ul#fancy li a:hover span {border: solid #fff; border-width: 0 2px 2px 0;}
 
-
 #load {position: absolute; top: 0px; right: 50px; padding: 10px ; background: #333; font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold;}
+
+p.form {margin: 10px; padding: 0px; float: left;}
+input {font-family: Georgia, serif; font-style: italic; font-size: 1em; color: #eee; background: none; border: 0px; border-bottom: 1px solid yellow; padding: 3px;}
+label {width: 200px;}
+p#submit input{color: #eee; background: #000; border: 0px; display: block;} 
