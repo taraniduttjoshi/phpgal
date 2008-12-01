@@ -37,4 +37,4 @@ ul#fancy li a img, ul#fancy li a span {border: solid #333; border-width: 0 2px 2
 ul#fancy li a img:hover, ul#fancy li a:hover span {border: solid #fff; border-width: 0 2px 2px 0;}
 
 
-#load {position: absolute; top: 0px; right: 50px; padding: 25.2% 10px ; background: #333; font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold;}
+#load {position: absolute; top: 0px; right: 50px; padding: 10px ; background: #333; font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold;}
