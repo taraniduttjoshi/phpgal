@@ -9,7 +9,7 @@
 	<title><?php echo "$web_title"; ?></title>
 	
 	<script type="text/javascript" src="js/jquery.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.history.js"></script>
+	<script type="text/javascript" src="js/jquery.ajaxify.js"></script>  
 	<script type="text/javascript" src="js/js.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="css/fancy.css" media="screen" />

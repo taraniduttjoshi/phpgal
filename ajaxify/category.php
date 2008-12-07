@@ -29,6 +29,7 @@
 			<h1><a href="about.php?cat=theabout"><?php echo "$web_title"; ?></a></h1>
 			<div id="web_desc">
 				<h2><?php echo $web_desc; ?></h2>
+				<h2>Single</h2>
 			</div>
 		</div>
 			<ul id="nav">
@@ -68,43 +69,44 @@
 	</div><!-- constant -->
 
 	<div id="content"> 
-		<h3 id="cat_tit"><?php echo $cat; ?></h3>	
-		<?php
-		if($cat=='about'){
-			echo '<div id="about">' . $web_about . '</div>';
-		}
-		else {
-			echo '<ul id="fancy">';
-			$dir = $path_to_tn_directory;
-			
-			if (!is_dir($dir)) { 
-				echo '<div id="text"><i>Phail</i>. Thingy-ma-bob does not exist. Please click another.</div>'; 
-			} 
-			
+		<div id="ajax">
+			<h3 id="cat_tit"><?php echo $cat; ?></h3>	
+			<?php
+			if($cat=='about'){
+				echo '<div id="about">' . $web_about . '</div>';
+			}
 			else {
-				$scan = scandir($dir);	
+				echo '<ul id="fancy">';
+				$dir = $path_to_tn_directory;
 				
-				for ($i = 0; $i<count($scan); $i++) {
-				  if ($scan[$i] != '.' && $scan[$i] != '..') {
-					$filetype = array('.jpg', '.gif', '.png');
-					foreach ($filetype as $types){
-					  if (strpos($scan[$i], $types) !== false) {
-						$filename = substr($scan[$i], 0, -4);
-						echo '<li>
-								<a href="' . $path_to_image_directory . $path_to_cat . $scan[$i] . '" rel="' . $cat . '" title="' . $filename .'">
-								<img src="' . $dir . $scan[$i] . '" alt="' . $scan[$i] . '"/><span>'. $filename . '</span>
-								</a>
-							  </li>'
-						;
+				if (!is_dir($dir)) { 
+					echo '<div id="text"><i>Phail</i>. Thingy-ma-bob does not exist. Please click another.</div>'; 
+				} 
+				
+				else {
+					$scan = scandir($dir);	
+					
+					for ($i = 0; $i<count($scan); $i++) {
+					  if ($scan[$i] != '.' && $scan[$i] != '..') {
+						$filetype = array('.jpg', '.gif', '.png');
+						foreach ($filetype as $types){
+						  if (strpos($scan[$i], $types) !== false) {
+							$filename = substr($scan[$i], 0, -4);
+							echo '<li>
+									<a href="' . $path_to_image_directory . $path_to_cat . $scan[$i] . '" rel="' . $cat . '" title="' . $filename .'">
+									<img src="' . $dir . $scan[$i] . '" alt="' . $scan[$i] . '"/><span>'. $filename . '</span>
+									</a>
+								  </li>'
+							;
+						  }
+						}
 					  }
-					}
-				  }
-				};
-				echo '</ul>';
-			} 
-		}
-		?>
-	
+					};
+					echo '</ul>';
+				} 
+			}
+			?>
+		</div>
 	</div>	
 <div id="wrapper"></div>
 </div><!--end all-->
