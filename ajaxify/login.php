@@ -2,7 +2,7 @@
 	// we must never forget to start the session
 	session_start();
 
-	if (!isset($_SESSION['adm_in'])
+	if (isset($_SESSION['adm_in'])
 		|| $_SESSION['adm_in'] == true) {
 
 		header('Location: upload.php');
