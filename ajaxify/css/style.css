@@ -2,7 +2,7 @@ body {background: black; margin: 0px; padding: 0px; font-size:62.5%; color: #eee
 }
 div.clear {float: clear;}
 
-h1,h2,h3,h4,h5 {font-family: Helvetica, Helvetica Neue, Arial Black, sans-serif; font-weight: bold; display: inline; color: #000; border: solid #333; border-width: 0 2px 2px 0; padding: 0 5px;}
+h1,h2,h3,h4,h5 {font-family: Arial, sans-serif; font-weight: bold; display: inline; color: #000; border: solid #333; border-width: 0 2px 2px 0; padding: 0 5px;}
 h1 {font-size: 5em; line-height: 1.2em; background: #fff; }
 h1 a {text-decoration: none; color: #000;}
 h2 {font-size: 2em; line-height: 1.2em; background: yellow;}
