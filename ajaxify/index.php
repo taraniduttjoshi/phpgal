@@ -25,7 +25,7 @@
 <div id="all">
 	<div id="constant">
 		<div id="heading">
-			<h1><a href="about.php?cat=cat"><?php echo "$web_title"; ?></a></h1>
+			<h1 div="test"><a href="about.php?cat=cat"><?php echo "$web_title"; ?></a></h1>
 			<div id="web_desc">
 				<h2><?php echo $web_desc; ?></h2>
 			</div>
