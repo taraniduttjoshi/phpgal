@@ -1,7 +1,5 @@
 $(document).ready(function() {  
 
-    $(document).pngFix(); 
-
 	var title=document.title
 	
 	function fancy(){
