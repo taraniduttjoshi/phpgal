@@ -21,7 +21,7 @@
 
 </head>
 <body>
-
+<div id="colorwrap"><div id="colors"></div></div>
 <div id="all">
 	<div id="constant">
 		<div id="heading">
