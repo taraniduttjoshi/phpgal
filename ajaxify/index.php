@@ -31,7 +31,7 @@
 			</div>
 		</div>
 			<ul id="nav">
-			<li><a href="about.php?cat=theabout">about</a></li>
+			<li><a href="about.php?cat=theabout">About</a></li>
 			<?php
 			
 			function folderlist(){
