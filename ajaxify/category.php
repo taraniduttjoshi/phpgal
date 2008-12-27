@@ -29,7 +29,7 @@
 			<h1><a href="about.php?cat=theabout"><?php echo "$web_title"; ?></a></h1>
 			<div id="web_desc">
 				<h2><?php echo $web_desc; ?></h2>
-				<h2>Single</h2>
+				<h2>Why no ajax mate?</h2>
 			</div>
 		</div>
 			<ul id="nav">
@@ -94,7 +94,7 @@
 							$filename = substr($scan[$i], 0, -4);
 							echo '<li>
 									<a href="' . $path_to_image_directory . $path_to_cat . $scan[$i] . '" rel="' . $cat . '" title="' . $filename .'">
-									<img src="' . $dir . $scan[$i] . '" alt="' . $scan[$i] . '"/><span>'. $filename . '</span>
+									<img src="' . $dir . $scan[$i] . '" alt="' . $scan[$i] . '"/>
 									</a>
 								  </li>'
 							;
