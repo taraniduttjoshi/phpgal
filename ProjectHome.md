@@ -1,0 +1,1 @@
+An ajax gallery made in PHP that uses scan dir, jcrop, jquery, fancybox and a basic login system
